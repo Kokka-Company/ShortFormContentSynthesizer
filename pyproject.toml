@@ -1,0 +1,15 @@
+[project]
+name = "shortform-synth"
+version = "0.1.0"
+description = "Turn Reels, TikToks and Shorts into a summarized spreadsheet"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "av<16",
+    "faster-whisper>=1.2.1",
+    "instaloader>=4.16",
+    "openpyxl>=3.1.5",
+    "rich>=15.0.0",
+    "yt-dlp>=2026.10.26",
+]
+

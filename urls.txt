@@ -1,0 +1,2 @@
+# Paste one Reel / TikTok / Short URL per line, then run ./run.sh
+# Already-processed URLs are skipped automatically.
