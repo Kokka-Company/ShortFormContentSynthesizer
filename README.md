@@ -45,3 +45,11 @@ To change what the summary contains, edit the task section of `CLAUDE.md`. If yo
 - **Follower counts**: YouTube comes from yt-dlp. TikTok is read from the profile page. Instagram uses `instaloader`, which may be rate-limited; the cell stays blank if that fails.
 - **Running from launchd/cron**: a scheduled job may not be able to reach the keychain where your Claude Code login lives. Run `claude setup-token` once and export the token as `CLAUDE_CODE_OAUTH_TOKEN` in the job's environment.
 - `shorts.xlsx` is rebuilt on every run. Keep your own notes in a separate sheet or file, because edits to it get overwritten.
+
+## License
+
+Copyright (C) 2026 Kokka & Company
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the [GNU General Public License](LICENSE) for more details.

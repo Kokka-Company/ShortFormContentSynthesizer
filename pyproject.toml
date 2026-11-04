@@ -1,6 +1,7 @@
 [project]
 name = "shortform-synth"
 version = "0.1.0"
+license = "GPL-3.0-or-later"
 description = "Turn Reels, TikToks and Shorts into a summarized spreadsheet"
 readme = "README.md"
 requires-python = ">=3.12"
